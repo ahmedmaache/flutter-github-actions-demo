@@ -30,7 +30,7 @@ jobs:
           cache: true
 
       - name: Ensure native files exist
-        run: flutter create . --org com.example
+        run: flutter create . --org com.example --project-name flutter_demo_app
 
       - name: Get dependencies
         run: flutter pub get
