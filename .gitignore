@@ -40,9 +40,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Sensitive files - NEVER commit these!
-*.jks
-*.keystore
-key.properties
+# Local properties
 local.properties
 
